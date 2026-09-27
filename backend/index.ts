@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import express from 'express';
 
 const app = express()
-mongoose.connect('mongodb://mongo:27017/todo-app')
+mongoose.connect('mongodb://mono:27017/todo-app')
        .then(() => console.log('connected to db'))
        .catch(e => console.log('cant connect to db'+ e )) 
 
